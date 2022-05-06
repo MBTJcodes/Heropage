@@ -1,0 +1,227 @@
+
+
+body {
+
+font-family: Alegreya;
+
+}
+.navbar{
+/* height: 101px; */
+width: 100%;
+
+box-shadow: 0 0.125rem 0.25rem rgba(146, 143, 143, 0.25);
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:2rem 1.8rem;
+box-sizing: border-box;
+}
+
+.logo {
+font-family: Alegreya;
+font-weight: 700;
+display: flex;
+font-size: 2rem;
+align-items: center;
+}
+
+.logo-icon {
+width: 3.5rem;
+height: 2.5rem;
+
+}
+
+.login-button {
+
+    background-color: transparent;
+    border: 0.125rem solid #0b41cd;
+    color: #0b41cd;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+    font-weight: 500;
+
+}
+
+.login-button:focus {
+
+    outline: none;
+}
+.hero-title {
+
+    font-size: 1.5rem;
+
+}
+
+.hero-description {
+
+font-family:The Girl Next Door;
+color: #786F6F;
+font-size: 1.5rem;
+margin:2rem 0rem;
+}
+
+.hero-button {
+color: #FFF;
+background-color:#0b41cd;
+border-radius: 0.25rem;
+padding: 1rem 2rem;
+     
+}
+
+/* hero-button:focus {
+
+    outline: none;
+}. */
+
+.hero {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap ;
+    padding: 2rem;
+    box-sizing: border-box;
+
+}
+
+.hero-content {
+width: 100%;
+
+}
+
+.hero-image {
+width: 100%;
+margin-top: 4rem;
+/* display: none; */
+}
+
+.community {
+
+    background-color: #FAFAFA;
+    padding: 2rem ;
+}
+
+.community-title {
+
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2rem;
+
+}
+
+.testimonials {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.testimonial-text {
+
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.testimonial-quote {
+
+    width: 2rem;
+    height: 2rem;
+}
+
+.testimonial-author {
+margin: 0;
+color: rgba(0, 0, 0, 0.4);
+font-style: italic;
+
+}
+
+.testimonial-location {
+
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+
+.hero-2 {
+
+   padding: 2rem; 
+   display: flex;
+}
+
+.hero-2-image {
+    display: none;
+    width: 40%;
+    height: 50%;
+    padding: 0 4rem;
+
+}
+
+.hero-2-contents {
+padding: 4rem 4rem 4rem 0rem;
+
+
+}
+.hero-2-content-title {
+font-size: 2rem;
+
+}
+
+.hero-2-description {
+color: #6E6B6B;
+font-size: 1.5rem;
+margin-bottom: 3rem;
+
+}
+
+@media (min-width: 1024px){
+
+.hero {
+
+    flex-wrap: nowrap;
+    padding: 8rem;
+}
+.hero-content {
+    width: 50%;
+}
+.hero-image {
+
+    width: 50%;
+    margin-left: 4rem;
+    /* display: block; */
+
+}
+.hero-title {
+
+    font-size: 3.5rem;
+}
+
+.community {
+
+    padding: 8rem;
+}
+
+.community-title {
+
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.testimonials {
+    flex-wrap: nowrap;
+    }
+
+.testimonial {
+ padding: 0.2rem;   
+}
+.hero-2 {
+
+    padding: 8rem; 
+ }
+ .hero-2-image {
+    display: block;
+}
+
+}
+.hero-2-content-title {
+font-size: 3rem;
+
+}
